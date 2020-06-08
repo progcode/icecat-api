@@ -1,5 +1,5 @@
 <?php
-namespace  App\Apis\Icecat;
+namespace Src\Icecat;
 
 use GuzzleHttp\Exception\RequestException;
 
