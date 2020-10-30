@@ -209,8 +209,8 @@ class Api
                 $this->setProductDataAttributes($xmlData["Product"]["@attributes"]);
             }
 
-            if(!empty($xmlData["Product"]["ProductDescription"])) {
-                $this->setProductDescriptions($xmlData["Product"]["ProductDescription"]["@attributes"]);
+            if(!empty($xmlData["Product"]["SummaryDescription"])) {
+                $this->setProductDescriptions($xmlData["Product"]["SummaryDescription"]);
             }
 
             return $xmlData["Product"];
