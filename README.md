@@ -6,7 +6,7 @@ Icecat is a PHP library, that assists you in the following 2 procedures:
 * Parsing this data from the Icecat response, and using them in real life applications.
 
 >
-> **v1.0.1:**
+> **v1.0.2:**
 >
 > - trim() vendor and sku/mpn values
 
