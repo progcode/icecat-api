@@ -5,6 +5,11 @@ Icecat is a PHP library, that assists you in the following 2 procedures:
 * Fetching data from the Icecat database using basic product information.
 * Parsing this data from the Icecat response, and using them in real life applications.
 
+>
+> **v1.0.1:**
+>
+> - trim() vendor and sku/mpn values
+
 ### About Icecat
 [Icecat](http://icecat.biz, "Icecat") is an open catalog, providing free access to thousands of product datasheets.
 In extend, when taking a subscription, the amount of accessible datasheets are increased.
