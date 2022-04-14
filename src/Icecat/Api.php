@@ -138,9 +138,9 @@ class Api
     public function getArticleByMPN($vendor, $mpn, $lang='HU')
     {
         $params = array(
-            'prod_id' => $mpn,
-            'vendor' => $vendor,
-            'lang' => $lang,
+            'prod_id' => trim($mpn),
+            'vendor' => trim($vendor),
+            'lang' => trim($lang),
             'output' => 'productxml'
         );
 
